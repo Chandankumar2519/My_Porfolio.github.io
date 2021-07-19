@@ -1,0 +1,745 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+
+h6{
+	font-weight: bold;
+	font-family: ARCH RIVAL;
+}
+
+h4{
+	letter-spacing: 1px;
+	font-weight: 600;
+	font-family: ARCH RIVAL;
+}
+
+.p1{
+	font-family: ARAPEY;
+	letter-spacing: 1px;
+}
+
+.hero-contant img{
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.h2{
+	font-size: 2em;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+	font-family: Baufra;
+	color: #113448;
+}
+
+/*----------------------------------------Modal section------------------------------------------------*/
+
+.modl-hdr{
+	padding: 0px 1rem;
+}
+
+.black{
+	background-color: black;
+	color: white;
+}
+
+.flex1{
+	margin-top: 130px;
+}
+
+.p2{
+	padding-left: 10px;
+	font-family: ARAPEY;
+	font-size: 12px;
+}
+
+.logo{
+	letter-spacing: 1px;
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.p2-logo{
+	letter-spacing: 1px;
+	font-size: 15px;
+	font-weight: bolder;
+	color: cyan;
+}
+
+.education{
+	margin-bottom: 60px;
+}
+
+#p2{
+	overflow-wrap: break-word;
+	font-size: 12px;
+}
+
+
+/*------------------------------------------Nav section ----------------------------------------------------*/
+
+.navbar-wraper{
+	position: fixed;
+	z-index: 1000;
+	background-color: #0F2532;
+	height: 3em;
+}
+
+.tags{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 5em;
+	height: 3em;
+}
+
+.tags a{
+	font-size: 1em;
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	letter-spacing: 1px;
+}
+
+#active,.tags a:hover{
+	color: cyan;
+}
+
+/*------------------------------------------Main section ----------------------------------------------------*/
+
+
+.contant-wraper{
+	color: white;
+	background-color: #444242;
+	min-height: 85vh;
+}
+
+.main-contant{
+	width: 70vw;
+	margin: 0 auto;
+	padding-top: 5em;
+}
+
+.contant-wraper::before{
+	content: " ";
+	position: absolute;
+	height: 200px;
+	width: 30px;
+	left: 0;
+	background-color: red;
+}
+
+.hero-contant{
+	display: flex;
+	gap: 2em;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero-heading{
+	font-size: 3em;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.hero-contant-about{
+	display: flex;
+	justify-content: center;
+	width: 70vw;
+	margin: 0 auto;
+	padding-top: 1em;
+}
+
+.h3{
+	font-size: 4em;
+	font-weight: 700;
+	letter-spacing: 0.1em;
+}
+
+.p3{
+	font-size: 1.3em;
+	letter-spacing: 0.195em;
+	margin-top: 1em;
+	color: white;
+}
+
+#butt{
+	color: white;
+	font-weight: 800;
+	letter-spacing: 0.55em;
+	text-transform: uppercase;
+	font-size: 1em;
+	margin-bottom: 2em;
+}
+
+#butt:hover{
+	color: black;
+}
+
+
+/*------------------------------------------About section ----------------------------------------------------*/
+
+
+.about-wraper{
+	background-color: #DFDFDF;
+	min-height: 50vh;
+	padding-top: 50px;
+	padding-bottom: 20px;
+	padding-left: 25px;
+	
+}
+
+
+
+/*------------------------------------------project section ----------------------------------------------------*/
+
+
+.project-wraper{
+	width: 100%;
+	min-height: 36vh;
+	background-color:  #DFDFDF;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+
+.btn{
+	color: white;
+	font-weight: 600;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+	font-size: 0.75em;
+}
+
+.btn:hover{
+	color: black;
+}
+
+img{
+	width: 120px;
+	height: 160px;
+	padding: 10px;
+}
+
+.card-text{
+	font-size: 12px;
+	letter-spacing: 0.075em;
+}
+
+/*------------------------------------------Skill section ----------------------------------------------------*/
+
+
+.skills-wraper{
+	background-color: #F8F5F5;
+	min-height: 80vh;
+	padding-top:45px;
+
+}
+
+.skills{
+	padding-left: 85px;
+	padding-bottom: 2px;
+}
+
+#bfr::after{
+	content: " ";
+	position: absolute;
+	height: 5px;
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 650px;
+	background-color: orange;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px gray;
+}
+
+#bfr1::after{
+	content: " ";
+	position: absolute;
+	height: 5px;
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 650px;
+	background-color: blue;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px gray;
+}
+
+#bfr2::after{
+	content: " ";
+	position: absolute;
+	height: 5px;
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 650px;
+	background-color: green;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px gray;
+}
+
+#bfr3::after{
+	content: " ";
+	position: absolute;
+	height: 5px;
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 650px;
+	background-color: red;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px gray;
+}
+
+#bfr4::after{
+	content: " ";
+	position: absolute;
+	height: 5px;
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 650px;
+	background-color: cyan;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px gray;
+}
+
+#bfr5::after{
+	content: " ";
+	position: absolute;
+	height: 5px;
+	margin-top: 10px;
+	margin-left: 15px;
+	width: 650px;
+	background-color: purple;
+	border-radius: 20px;
+	box-shadow: 2px 2px 5px gray;
+}
+
+
+/*------------------------------------------Contact section ----------------------------------------------------*/
+
+.contact-wraper{
+	background-color: #444242;
+	min-height: 50vh;
+}
+
+.contact-div{
+	padding: 20px 20px;
+}
+
+#contact-heading{
+	color: white;
+	font-size: 2em;
+	letter-spacing: 0.1em;
+	font-weight: 600;
+	font-family: Baufra;
+}
+
+
+
+/*------------------------------------------Button section ----------------------------------------------------*/
+
+.contact button{
+	color: white;
+	font-weight: 800;
+	letter-spacing: 0.75em;
+	text-transform: uppercase;
+	font-size: 1.2em;
+}
+
+
+
+/*------------------------------------------Jquery start ----------------------------------------------------*/
+
+
+@media screen and (max-width: 1024px)	{
+	.contant-wraper {
+    min-height: 40vh;
+}
+
+.about-wraper {
+    min-height: 27vh;
+}
+
+.skills-wraper {
+    min-height: 56vh;
+}
+
+.contact-wraper {
+    min-height: 25vh;
+}
+
+}
+
+@media screen and (max-width: 994px)	{
+
+#bfr1::after{
+	margin-left: 15px;
+	width: 400px;
+}
+
+#bfr2::after{
+	margin-left: 15px;
+	width: 400px;
+}	
+
+#bfr3::after{
+	margin-left: 15px;
+	width: 400px;
+}	
+
+#bfr4::after{
+	margin-left: 15px;
+	width: 400px;
+}	
+
+#bfr5::after{
+	margin-left: 15px;
+	width: 400px;
+}	
+
+#bfr::after{
+	margin-left: 15px;
+	width: 400px;
+}
+#bfr5::after{
+	margin-left: 15px;
+	width: 300px;
+}	
+
+}
+
+@media screen and (max-width: 758px)	{
+
+body{
+	background-color: red;
+}
+.contant-wraper {
+    min-height: 65vh;
+}
+.about-wraper {
+    min-height: 40vh;
+}
+.contact-wraper {
+    min-height: 32vh;
+}
+#bfr5::after{
+	margin-left: 15px;
+	width: 250px;
+}	
+
+.about-wraper {
+    text-align: center;
+}
+
+}
+
+@media screen and (max-width: 630px)	{
+	
+
+#bfr1::after{
+	margin-left: 15px;
+	width: 200px;
+}
+
+#bfr2::after{
+	margin-left: 15px;
+	width: 200px;
+}	
+
+#bfr3::after{
+	margin-left: 15px;
+	width: 200px;
+}	
+
+#bfr4::after{
+	margin-left: 15px;
+	width: 200px;
+}	
+
+#bfr5::after{
+	margin-left: 15px;
+	width: 150px;
+}	
+
+#bfr::after{
+	margin-left: 15px;
+	width: 200px;
+}
+
+.card1{
+    display: contents;
+}
+
+.card{
+	margin: 12px 0px;
+}
+
+}
+
+
+@media screen and (max-width: 555px)	{
+	.contant-wraper::before{
+	content: " ";
+	position: absolute;
+	height: 160px;
+	width: 20px;
+	left: 0;
+	background-color: red;
+}
+
+.skills-wraper{
+	padding-top: 50px;
+}
+
+.about-wraper {
+	padding: 0;
+    padding-top: 50px;
+    
+}
+
+}
+
+@media screen and (max-width: 500px)	{
+	
+
+	.hero-contant img{
+	width: 150px;
+	height: 150px;
+	}
+
+	.hero-heading{
+	font-size: 2em;
+	}
+
+	.h3{
+	font-size: 2.5em;
+	letter-spacing: 0.035em;
+	}
+
+	.p3{
+	font-size: 1em;
+	letter-spacing: 0.025em;
+	}
+
+	#bfr5::after{
+	margin-left: 15px;
+	width: 150px;
+	}
+
+	.contact button{
+	color: white;
+	font-weight: 700;
+	letter-spacing: 0.4em;
+	text-transform: uppercase;
+	font-size: 1em;
+	}
+
+	.contant-wraper::before{
+	content: " ";
+	position: absolute;
+	height: 150px;
+	width: 20px;
+	left: 0;
+	background-color: red;
+	}
+
+
+}
+
+
+@media screen and (max-width: 450px)	{
+
+	.tags{
+	gap: 2em;
+}
+
+
+#bfr1::after{
+	margin-left: 15px;
+	width: 100px;
+}
+
+#bfr2::after{
+	margin-left: 15px;
+	width: 100px;
+}	
+
+#bfr3::after{
+	margin-left: 15px;
+	width: 100px;
+}	
+
+#bfr4::after{
+	margin-left: 15px;
+	width: 100px;
+}	
+
+#bfr5::after{
+	margin-left: 15px;
+	width: 100px;
+}	
+
+#bfr::after{
+	margin-left: 15px;
+	width: 100px;
+}
+
+.contant-wraper::before{
+	content: " ";
+	position: absolute;
+	height: 150px;
+	width: 20px;
+	left: 0;
+	background-color: red;
+}
+.skills {
+    padding-left: 0px;
+}
+
+.p2{
+	padding-left: 10px;
+	font-family: ARAPEY;
+	font-size: 12px;
+}
+
+.logo{
+	letter-spacing: 0px;
+	font-size: 15px;
+	font-weight: bolder;
+}
+.p2-logo{
+	letter-spacing: 0px;
+	font-size: 13px;
+	font-weight: normal;
+	color: cyan;
+}
+
+
+}
+
+
+@media screen and (max-width: 420px)	{
+	
+.hero-contant img{
+	width: 120px;
+	height: 120px;
+	}
+
+	.hero-heading{
+	font-size: 1.6em;
+	}
+	.contant-wraper::before{
+	content: " ";
+	position: absolute;
+	height: 150px;
+	width: 20px;
+	left: 0;
+	background-color: red;
+}
+
+}
+
+
+@media screen and (max-width: 375px)	{
+	
+	#bfr5::after{
+	margin-left: 10px;
+	width: 55px;
+}
+.contant-wraper::before{
+	content: " ";
+	position: absolute;
+	height: 150px;
+	width: 20px;
+	left: 0;
+	background-color: red;
+}
+
+
+
+.p2{
+	padding-left: 10px;
+	font-family: ARAPEY;
+	font-size: 12px;
+}
+
+.logo{
+	letter-spacing: 0px;
+	font-size: 14px;
+	font-weight: bolder;
+}
+.p2-logo{
+	letter-spacing: 0px;
+	font-size: 12px;
+	font-weight: normal;
+	color: cyan;
+}
+
+}
+
+
+@media screen and (max-width: 350px)	{
+	
+.hero-contant{
+	display: block;
+	gap: 0em;
+}
+
+
+p{
+	font-family: ARAPEY;
+	letter-spacing: 0px;
+	font-size: 10px;
+}
+
+.contant-wraper::before{
+	content: " ";
+	position: absolute;
+	height: 150px;
+	width: 20px;
+	left: 0;
+	background-color: red;
+}
+
+}
+
+
+@media screen and (max-width: 325px)	{
+	
+	#bfr5::after{
+	margin-left: 10px;
+	width: 55px;
+}
+
+.h2 {
+    font-size: 1.8em;
+   letter-spacing: 0em;
+   font-weight: 400;
+}
+
+
+.tags {
+    gap: 1em;
+}
+
+.logo{
+	letter-spacing: 0px;
+	font-size: 12px;
+	font-weight: bolder;
+}
+
+.p2-logo{
+	letter-spacing: 0px;
+	font-size: 11px;
+	font-weight: normal;
+	color: cyan;
+}
+
+}
